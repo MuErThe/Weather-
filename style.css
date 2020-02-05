@@ -1,0 +1,58 @@
+/* Universal Styling */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  align-items: center;
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  height: 100vh;
+  justify-content: center;
+}
+
+/* Timezone Section  */
+.location, .temperature{
+  height: 30vh;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Temperature Section */
+.temperature{
+  flex-direction: column;
+}
+
+.degree-section{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.degree-section h2{
+  font-size: 40px;
+}
+
+.degree-section span{
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+/* Quote Section */
+.quote{
+  text-align: center;
+  margin-top: 170px;
+}
+
+.author{
+  margin-top: 10px;
+  font-size: 13px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <title>Weather</title>
+
+  <!-- Favicon  -->
+  <link rel="shortcut icon" href="favicon.png">
+
+  <!-- Custom Style Sheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Animation Style Sheet -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+</head>
+
+<body>
+  <!-- Timezone Section -->
+  <div class="location animated fadeIn">
+    <h1 class="location-timezone">Timezone</h1>
+    <canvas class="icon" width="128" height="128"></canvas>
+  </div>
+
+  <!-- Temperature Section -->
+  <div class="temperature animated fadeIn">
+    <div class="degree-section">
+      <h2 class="temperature-degree">34</h2>
+      <span>°F</span>
+    </div>
+    <div class="temperature-desc">Sunny</div>
+  </div>
+
+  <!-- Quote Section -->
+  <div class="quote animated fadeIn">
+    <p>"A change in the weather is sufficient to recreate the world and ourselves"</p>
+    <p class="author">Marcel Proust ♡<p>
+  </div>
+
+  <!-- Script -->
+  <script type="text/javascript" src="skycons.js"></script>
+  <script src="main.js" charset="utf-8"></script>
+</body>
+</html>
